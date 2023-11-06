@@ -10,7 +10,9 @@ body {
 
 @media (max-width: 330px) {
   ::-webkit-scrollbar {
-    width: 0; } }
+    width: 0; }
+  html {
+    scrollbar-width: none; } }
 
 .header {
   background-color: white; }
