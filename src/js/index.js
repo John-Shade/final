@@ -1,3 +1,9 @@
 import '../scss/style.scss'
 
-console.log('Works!')
+import '../js/sidebar.js'
+
+import '../js/swiper.js'
+
+import '../js/changeHeight'
+
+// console.log('Works!')

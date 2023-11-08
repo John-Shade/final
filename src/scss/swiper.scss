@@ -1,0 +1,250 @@
+.swiper {
+
+    /* width: 224px;
+    height: 72px;
+    padding: 16px 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    flex-shrink: 0;
+    align-items: center; */
+
+
+    box-sizing: border-box; 
+    align-items: center;
+
+    // display: none !important;
+
+    display: none;
+    margin-top: 16px;
+  }
+
+ .mySwiper {
+    // width: 224px;
+
+    height: 72px;
+    width: 300px;
+ }
+
+ .mySwiper--card {
+    // width: 240px;
+
+    width: 300px;
+    height: 160px;
+ }
+
+ .mySwiper--price {
+    // width: 260px;
+
+    width: 300px;
+    height: 200px;
+ }
+
+ .swiper-container {
+  display: none;
+}
+
+.swiper-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.swiper-wrapper--del {
+  // transform: none !important;
+  // display: none !important;
+}
+
+
+.swiper-wrapper--brand {
+    width: 224px;
+    height: 72px;
+}
+.swiper-wrapper--card {
+    width: 240px;
+    height: 160px;
+}
+
+.swiper-wrapper--price {
+    width: 260px;
+    height: 200px;
+}
+
+
+
+.swiper-slide {
+
+    // width: 224px;
+    // height: 72px;
+    
+    background-color: white;
+    box-sizing: border-box;
+
+    
+
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // flex-shrink: 0;
+    // align-items: center;
+
+    /* height: 72px;*/
+    /* width: 240px;  */
+    /* height: 72px; 
+    padding: 16px 0;
+    box-sizing: border-box; */
+
+    /* text-align: center; */
+    /* font-size: 18px; */
+    /* background-color: aliceblue; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  .swiper-slide--brand {
+    width: 224px; 
+    height: 72px;
+
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    // padding: 16px 16px;
+    // background-color: white;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // box-sizing: border-box;
+    // flex-shrink: 0;
+    // align-items: center;
+
+    //
+    /* height: 72px;*/
+    /* width: 240px;  */
+    /* height: 72px; 
+    padding: 16px 0;
+    box-sizing: border-box; */
+
+    /* text-align: center; */
+    /* font-size: 18px; */
+    /* background-color: aliceblue; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    // width: 230px !important; 
+  }
+
+
+
+
+
+  .swiper-slide--card {
+    width: 240px;
+    height: 160px;
+    // vertical-align: top;
+    
+    // padding: 16px 16px;
+    // background-color: white;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // box-sizing: border-box;
+    // flex-shrink: 0;
+    // align-items: center;
+  }
+
+  .swiper-slide--price {
+    width: 260px;
+    height: 200px;
+    padding: 16px;
+  }
+
+
+  .swiper-slide img{
+    /* width: 58%; */
+    /* object-fit: cover; */
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 140px !important; 
+    left: auto;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px !important; 
+    right: auto;
+  }
+
+.swiper__go {
+    height: 40px;
+    width: 40px;
+}
+
+.swiper-pagination {
+    display: none;
+    bottom: auto !important;
+    display: none !important;
+
+}
+
+
+.swiper__go--card {
+   
+    // top: 110px;
+    // left: 12px;
+    // position :relative;
+
+    // right: 0px;
+    position :relative;
+    display: block;
+    margin-left: auto;
+    // margin-top: auto;
+    bottom: -64px;
+    right: 16px;
+}
+
+.swiper-slide-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    // padding: 16px;
+    box-sizing: content-box;
+}
+.swiper-slide-container__text--first {
+    color: #7e7e82;
+    // font-family: TT Lakes;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.swiper-slide-container__text--second {
+    // font-family: TT Lakes;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+@media(max-width: 760px) {
+    .swiper {
+        display: block;
+        margin-right: auto;
+    }
+
+    .swiper-pagination {
+        // display: block;
+        display: block !important;
+    }
+    .content-section__button--with-position {
+      // display: initial;
+    }
+    .swiper-container {
+      display: block;
+    }
+}

@@ -1,17 +1,41 @@
-$bgColor: #24292e;
-$text: #fff;
+// $text: #fff;
+$bgColor: #F8F8F8;
+$bgColorforEl: white;
+$bgColorforButton: rgba(255, 62, 121, 1);
+
 
 @font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
+  font-family: 'TT Lakes';
+  src: url('../fonts/TTLakes-Regular.ttf') format('truetype');
+  // font-weight: normal;
+  // font-style: italic;
 }
 
 body {
-  padding: 1rem;
+  font-family: "TT Lakes";
+  background-color: #F8F8F8;
   margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
+  overflow-x: hidden;
 }
+
+
+@media(max-width: 400px) {  
+  ::-webkit-scrollbar {
+      width: 0;
+  }
+  html {
+    scrollbar-width: none;
+  }
+}
+
+
+@import './header.scss';
+@import './menu.scss';
+@import './content.scss';
+@import './main.scss';
+@import './sidebar.scss';
+@import './swiper.scss';
+@import './brand.scss';
+@import './card.scss';
+@import './form.scss';
+@import './price.scss';
