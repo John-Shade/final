@@ -426,7 +426,7 @@ main {
   .title {
     margin-top: 32px; } }
 
-@media (min-width: 470px) {
+@media (min-width: 490px) {
   .sidebar {
     width: 320px; } }
 
@@ -548,9 +548,7 @@ main {
   width: 40px; }
 
 .swiper-pagination {
-  display: none;
-  bottom: auto !important;
-  display: none !important; }
+  bottom: auto !important; }
 
 .swiper__go--card {
   position: relative;
@@ -578,8 +576,6 @@ main {
   .swiper {
     display: block;
     margin-right: auto; }
-  .swiper-pagination {
-    display: block !important; }
   .swiper-container {
     display: block; } }
 
