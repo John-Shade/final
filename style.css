@@ -337,7 +337,7 @@ main {
   width: 100%;
   height: 100%;
   min-width: 320px;
-  min-height: 792px;
+  min-height: 800px;
   box-shadow: 16px 0 52px 0 rgba(14, 24, 80, 0.2);
   background-color: white;
   flex-direction: column;
